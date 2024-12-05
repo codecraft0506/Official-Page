@@ -1511,6 +1511,10 @@ Portfolio
 .our-portfolio .item {
   position: relative;
   z-index: 222;
+  width: 300px; /* 固定寬度 */
+  height: 400px; /* 固定高度 */
+  margin: 15px;
+  box-sizing: border-box; /* 確保邊框和內邊距不影響大小 */
 }
 
 .portfolio-item {
@@ -1530,9 +1534,13 @@ Portfolio
 }
 
 .portfolio-item .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 確保圖片填滿容器並保持比例 */
   border-top-right-radius: 23px;
   border-top-left-radius: 23px;
   overflow: hidden;
+  box-sizing: border-box; /* 確保邊框和內邊距不影響大小 */
 }
 
 .portfolio-item .down-content {
