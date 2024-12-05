@@ -105,7 +105,9 @@ html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
-  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1811,7 +1813,6 @@ Blog
   float: left;
   margin-right: 30px;
 }
-
 .post-item .thumb img {
   border-radius: 23px;
   display: inline-block;

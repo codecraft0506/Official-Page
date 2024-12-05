@@ -2101,3 +2101,33 @@ responsive
     padding: 30px;
   }
 }
+
+@media (max-width: 767px) {
+  .col-lg-8.col-sm-8.col-7.col-md-4 {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .pre-header {
+    display: none;
+  }
+}
+
+.full-email {
+  display: inline;
+}
+
+.short-email {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .full-email {
+      display: none;
+  }
+
+  .short-email {
+      display: inline;
+  }
+}
