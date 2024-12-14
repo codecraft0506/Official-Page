@@ -882,7 +882,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 240px 0px 200px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -945,7 +945,7 @@ Banner Style
 }
 
 .main-banner .right-image img {
-  max-width: 593px;
+  max-width: 600px;
 }
 
 
